@@ -27,7 +27,7 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     text-decoration: none;
     padding-left: 3px;
 }
-```
+Noto Sans K```
 
 ## See Font Awesome icons available
 

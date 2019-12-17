@@ -1,17 +1,34 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
-keywords: sample homepage
+title: "ZSH 한국어 설명서"
+keywords: Introduction
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+#summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll. <a alt='technical writing blog' href='http://idratherbewriting.com'>이름</a>
 ---
-
+{::comment}
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+{:/comment}
 
-## Build the Theme
+## 시작하며
 
-Follow these instructions to build the theme.
+Mac OS가 Catalina로 업데이트 되면서 기본 쉘이 zsh로 바뀌었다는 소식을 들었다.
+그래서 알아보다가 fish까지 손대봤으나 터미널에서 Emacs식으로 커서를 옮길 수 없어서
+(물론 방법이 있을 것 같지만 fish를 쓰는게 당초 목표는 아니었기 때문에)
+Z shell을 써보기로 하고 설명서을 찾아보니 지금까지 shell을 얼마나 이해없이 썼는지
+뼈저리게 느껴 이 페이지를 만들기로 마음먹었다.
+이번 프로젝트를 통해 Z Shell뿐 아니라 Jekyll과 Git을 함께 익숙해지도록 하겠다! (ATOM도!)
+
+### 기존 문서의 위치  
+
+http://zsh.sourceforge.net/ 의 문서중 [설명서](http://zsh.sourceforge.net/Doc/)의
+2019년 4월 16일 생성된 [HTML Browsable Hypertex](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html)으로 zsh 버전 5.7.1 기준 문서입니다.
+
+## Z Shell 설명서 
+
+이 문서(원본)는 Zsh 배포판 하위폴더 중 Doc에 들어있는 zsh.texi라는 texinfo 파일로부터 만들어졌습니다.
+
+{::comment}
 
 ### 1. Download the theme
 
@@ -408,3 +425,5 @@ If you want to use an automated system for managing links, see [Automated Links]
 The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
 
 {% include links.html %}
+
+{:/comment}
