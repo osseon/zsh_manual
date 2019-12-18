@@ -30,10 +30,18 @@ entries:
       output: web, pdf
       type: homepage
 
-  - title: Zsh 설명서
+  - title: 1. Zsh 설명서
     output: web, pdf
     folderitems:
 
-    - title: 1. Zsh 설명서
-      url: /mydoc_zsh_manual
+    - title: 1.1 zsh.texi로 문서 만들기
+      url: /mydoc_make_doc.html
+      output: web, pdf
+
+  - title: 2. 소개
+    output: web, PDF
+    folderitem:
+
+    - title: 2.1 만든이
+      url: /mydoc_author.html
       output: web, pdf

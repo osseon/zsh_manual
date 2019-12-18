@@ -1,0 +1,36 @@
+---
+title: 1.1 zsh.texi로 문서 만들기
+keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
+last_updated: Dec 18, 2019
+tags: [getting_started]
+sidebar: mydoc_sidebar
+permalink: mydoc_zsh_manual.html
+folder: mydoc
+---
+{::comment}{{ site.time | date: '%m %d %y' }}{:/comment}
+
+이 문서(원본)는 Zsh 배포판 하위폴더 중 Doc에 들어있는 zsh.texi라는 texinfo 파일로부터 만들어졌습니다.
+
+
+### texinfo는 여러가지 다른 포맷으로 변환 할 수 있다.
+_[GNU Korea texinfo 페이지 참조](http://korea.gnu.org/manual/release/texinfo/texinfo-ko_2.html)_
+
+### Info 파일
+Info 파일 형식은 색인 검색 가능하다.
+`makeinfo zsh.texi` 명령으로 Info 형식의 파일로 만들 수 있다.
+
+### The printed manual
+- `texi2dvi zsh.texi` 라는 명령으로 zsh.dvi를 만들어 dvips 나 gs(Ghostscript)를 이용해 인쇄용으로 만들 수 있다.
+
+### The HTML manual
+
+- HTML버젼은 [Zsh 웹사이트](http://zsh.sourceforge.net/Doc/.) 에서 볼 수 있다. (=원본 문서)
+
+- (HTML 버전은 texi2html라는 명령어를 이용해 얻을 수 있다.
+  [texi2html 웹사이트](http://www.nongnu.org/texi2html/) 에서 다운받을 수 있다.
+  `texi2html –output . –ifinfo –split=chapter –node-files zsh.texi`라고 입력하면 된다. texi2html 버전을 1.78로 업데이트 해도 좋다.)
+
+- texinfo를 변환할 도구가 없는 경우에는 PostScript나 dvi, PDF, info, HTML 등의 형식으로 변환된 파일이 zsh-doc.tar.gz안에 포함되어 있고 이것은 Zsh 아카이브 사이트나 미러사이트에서 다운받을 수 있다.
+이용가능한 사이트 목록을 참조하라. 수정(링크)
+
+{% include links.html %}

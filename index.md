@@ -22,11 +22,9 @@ Z shell을 써보기로 하고 설명서을 찾아보니 지금까지 shell을 �
 ### 기존 문서의 위치  
 
 http://zsh.sourceforge.net/ 의 문서중 [설명서](http://zsh.sourceforge.net/Doc/)의
-2019년 4월 16일 생성된 [HTML Browsable Hypertex](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html)으로 zsh 버전 5.7.1 기준 문서입니다.
+2019년 4월 16일 생성된 [HTML Browsable Hypertex](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html)으로 zsh 버전 5.7.1 기준 문서입니다. [^1]
 
-## Z Shell 설명서 
-
-이 문서(원본)는 Zsh 배포판 하위폴더 중 Doc에 들어있는 zsh.texi라는 texinfo 파일로부터 만들어졌습니다.
+[^1]: _역자 주는 이탤릭체로 씌여졌습니다._
 
 {::comment}
 
